@@ -1,0 +1,18 @@
+<app-header titulo="popover">
+</app-header>
+
+<ion-content padding>
+  <ion-button  (click)="presentPopover($event)" expand="full" color="secondary">
+   <ion-icon  slot="icon-only" name="happy-outline"></ion-icon>
+   <ion-label>PopOver</ion-label>
+  </ion-button>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-title>PopOver Footer</ion-title>
+    <ion-button (click)="presentPopover($event)" slot ="start" color ="secondary" expand="full">
+      <ion-icon slot="icon-only" name="happy-outline"></ion-icon>
+    </ion-button>
+  </ion-toolbar>
+</ion-footer>

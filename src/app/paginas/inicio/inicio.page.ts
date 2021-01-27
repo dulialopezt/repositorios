@@ -51,6 +51,26 @@ export class InicioPage implements OnInit {
       nombre:'Slides',
       direccion:'/slides',
     },
+    {
+      icono:'bag-remove-outline',
+      nombre:'Check',
+      direccion:'/check',
+    },
+    {
+      icono:'calculator-outline',
+      nombre:'Grid',
+      direccion:'/grid',
+    },
+    {
+      icono:'chatbubble-outline', 
+      nombre:'Toast',
+      direccion:'/toast',
+    },
+    {
+      icono:'card-outline', 
+      nombre:'Popover',
+      direccion:'/popover',
+    }
   ]
   constructor() { }
 
