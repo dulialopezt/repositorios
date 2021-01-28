@@ -70,6 +70,16 @@ export class InicioPage implements OnInit {
       icono:'card-outline', 
       nombre:'Popover',
       direccion:'/popover',
+    },
+    {
+      icono:'arrow-redo-outline', 
+      nombre:'Input',
+      direccion:'/input',
+    },
+    {
+      icono:'infinite-outline', 
+      nombre:'Infinite Scroll',
+      direccion:'/scroll',
     }
   ]
   constructor() { }
