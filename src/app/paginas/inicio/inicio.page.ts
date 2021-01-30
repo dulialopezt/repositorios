@@ -80,6 +80,16 @@ export class InicioPage implements OnInit {
       icono:'infinite-outline', 
       nombre:'Infinite Scroll',
       direccion:'/scroll',
+    },
+    {
+      icono:'heart-outline', 
+      nombre:'Listas',
+      direccion:'/listas',
+    },
+    {
+      icono:'trash-outline', 
+      nombre:'Listas Reordenadas',
+      direccion:'/list-reorder',
     }
   ]
   constructor() { }
